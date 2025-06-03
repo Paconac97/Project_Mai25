@@ -1,0 +1,43 @@
+/* Le sélecteur, la propriété et la valeur */
+/* Faire usage des balises universelle en guise de sélecteur */
+/* L'héritage des balises enfant depuis les balises parents */
+.uno{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    margin-left: 30%;
+}
+
+.left{
+    display: flex;
+}
+ /* ---->>>>> MODE COLORIMETRIQUE <<<<<<<-------*/
+ /* hex ou hexadécimal qui débute par # et le mode red green blue RGB */
+h1{
+    font-family: fantasy;
+    color: blueviolet;
+    text-align: center;
+    background-color: blanchedalmond;
+    /* background-image: url(../image/Paint-3D.jpg); */
+}
+p{
+    /* ---->>>>> POLICE D'ECRITURE <<<<<<<-------*/
+    /* Utiliser des polices sans serif */
+    /* Ou aller sur le site google font pour sélectionner une police */
+    /* 1-Pour modifier le type de police, la propriété est font family */
+    /* 2-Pour modifier la taille de police, la propriété est font size unité em (1em est une taille normal), elle s'adamte à n'importe quel taille d'écran */
+    /* 3-Pour modifier le style gras italic bold, la propriété est font style  */
+    /* 4-Text align sert à aligner le text */
+ font-family: "Tangerine", cursive;
+ font-size: 1em;
+ font-style: italic;
+ font-weight: 700;
+ /* 400 est la graisse d'un texte normal */
+ text-align: justify;
+ /* Aligner le texte d'une balise inline, comme  <span>,  <a>,  <em> ,  <strong> n'est pas possible. Et c'est logique quand on y pense : on ne peut pas modifier l'alignement de quelques mots au milieu d'un paragraphe. */
+}
+a{
+    /* text decoration sert à enlever les lignes sous le texte */
+    text-decoration: none;
+    color: black;
+}
